@@ -11,7 +11,7 @@ public:
 	}
 };
 
-class MataKuliah {
+class Matakuliah {
 private:
 	int sks;
 	string kode;
@@ -34,3 +34,15 @@ public:
 
 	}
 };
+
+int main() {
+
+	Mahasiswa mhs;
+	Matakuliah mk;
+
+	cout << "\nMasukan NIM= ";
+	cin >> mhs.nim;
+	cout << "\nMasukan Nama= ";
+	cin >> mhs.nama;
+
+}
