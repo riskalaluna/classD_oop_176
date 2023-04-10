@@ -15,7 +15,7 @@ class MataKuliah {
 private:
 	int sks;
 	string kode;
-	string namaMk;
+	string namaMK;
 public:
 	void inputMk() {
 
@@ -23,6 +23,13 @@ public:
 		cin >> sks;
 		cout << "\nMasukan Kode MK= ";
 		cin >> kode;
+		cout << "\nMasukan Nama MK = ";
+		cin >> namaMK;		
+	}
+
+	void tampilMK() {
+		cout << "\nJumlah sks= " << sks;
 		
+
 	}
 };
